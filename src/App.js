@@ -18,13 +18,14 @@ import Banner from './components/banner';
 
 const history = require('history').createBrowserHistory;
 
-function App() {
+function App2() {
   const pages = [
     {
       pageLink: '/',
       view: Home,
       displayName: 'Home',
       animationDelayForNavbar: 0.2,
+      newtest:1.1,
     },
     /* {
       pageLink: '/database',
